@@ -1,0 +1,10 @@
+{
+  "name": "RythuDrishti AI",
+  "description": "Smart Farming Copilot for Telangana farmers (cotton, paddy, maize) with bilingual English/Telugu support, crop health analysis, live weather, and farm management.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

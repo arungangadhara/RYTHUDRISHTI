@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Telugu', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+/* Custom utility for Telugu content */
+.font-telugu {
+  font-family: 'Noto Sans Telugu', 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+/* Ensure minimum touch target for mobile agricultural usage */
+.touch-target {
+  min-height: 48px;
+  min-width: 48px;
+}
+
+/* Custom scrollbar for clean UI */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
